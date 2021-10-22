@@ -33,14 +33,14 @@ function LoginForm(props) {
         {err != "" ? <div className="error alert alert-danger">{err}</div> : ""}
         <div className="form-floating mb-3">
           <input
-            type="email"
+            type="text"
             className="form-control"
             id="username"
             placeholder="name@example.com"
             onChange={(e) => setAccount({ ...account, email: e.target.value })}
             value={account.email}
           />
-          <label htmlFor="username">Email address</label>
+          <label htmlFor="username">Username</label>
         </div>
         <div className="form-floating mb-4">
           <input

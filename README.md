@@ -1,8 +1,32 @@
-# Getting Started with Create React App
+# Login Form
+
+A simple user login form
+Technologies used: React, React Hooks, auth-api-nodejs(mock api), Bootstrap, Google Font
+
+### Description
+
+The Login Form has two field - Email and Password and a button to submit.
+The form thows and error if either/both of the fields are not filled when the form is submitted.
+When the form is submitted, it makes a call to mock API, to authenticate the user. When successful, redirects to "Welcome" page.
+If the authentication fails, an error message is displayed.
+
+### Setup
+
+1. Git clone https://github.com/SireeshaKare/reat-login-form.git repository and git clone https://github.com/cluemediator/auth-api-nodejs.git repository
+2. Move into the react-login-form directory and start server (npm start)
+3. Move into the auth-api-nodejs directory and install dependencies for the mock API (npm install)
+4. Then start the API server (npm start)
+5. The form is ready to be tested
+
+Credentials to test successful login
+Username: cluemediator
+Password: 123456
+
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
