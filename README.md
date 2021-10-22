@@ -6,8 +6,8 @@ Technologies used: React, React Hooks, auth-api-nodejs(mock api), Bootstrap, Goo
 ### Description
 
 The Login Form has two field - Email and Password and a button to submit.
-The form thows and error if either/both of the fields are not filled when the form is submitted.
-When the form is submitted, it makes a call to mock API, to authenticate the user. When successful, redirects to "Welcome" page.
+The form throws an error if either/both of the fields are not filled, when the form is submitted.
+When the form is submitted, it makes a call to mock API to authenticate the user. When successful, it redirects to "Welcome" page.
 If the authentication fails, an error message is displayed.
 
 ### Setup
