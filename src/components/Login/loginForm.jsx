@@ -7,8 +7,12 @@ function LoginForm(props) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (account.email == "" || account.password == "") {
-      setErr("All fields are required");
+     if (account.email == "" && account.password == "") {
+      setErr("Please enter Username and Password");
+    } else if (account.email == "") {
+      setErr("Please enter Username");
+    } else if (account.password == "") {
+      setErr("Please enter Password");
     } else {
       setErr("");
       axios
